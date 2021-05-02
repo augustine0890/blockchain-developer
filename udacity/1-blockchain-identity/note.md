@@ -1,2 +1,2 @@
-# Project 1: Managing Your Blockchain Identity
+# Project 1: Private Blockchain Application
 - Create your identity on the Blockchain and interact with an existing web service.
