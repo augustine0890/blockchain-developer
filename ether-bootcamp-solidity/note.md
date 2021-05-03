@@ -20,3 +20,5 @@ MetaMask <-> Infura <-> Blockchain Node <-> Blockchain <-> Blockchain Node <-> B
 ```
 - You need a blockchain node to interact with the Blockchain
 - The Blockchain is the single source of truth.
+
+## Solidity
