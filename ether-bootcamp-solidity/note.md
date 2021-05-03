@@ -12,3 +12,11 @@
 
 ### Blockchain (Bitcoin)
 - Public Ledger of all bitcoin transactions
+
+## MetaMask-Wallet
+```
+MetaMask <-> Infura <-> Blockchain Node <-> Blockchain <-> Blockchain Node <-> Backend <-> Browser
+                    EtherScan <-> Blockchain Node <-> Blockchain <-> Other Nodes
+```
+- You need a blockchain node to interact with the Blockchain
+- The Blockchain is the single source of truth.
