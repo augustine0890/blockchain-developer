@@ -35,3 +35,8 @@
 - `Sending a Transaction to a Function`: can modify a contract's data, takes time to execute, returns the transaction hash, costs money.
 - `gasPrice`: amount of Wei the sender is willing to pay per unit gas to get this transaction processed.
 - Each Ethereum transaction requires computational resources to execute, each transaction requires a fee. Gas refers to the fee required to successfully conduct a transaction on Ethereum.
+
+## Smart Contracts
+### Truffle
+- Development environment that integrates complilation, testing, and deployment of Smart Contracts.
+- Custom Node Project: Contract Creation + Local Testing + Deployment -deploying-> Network (Rinbeky)
