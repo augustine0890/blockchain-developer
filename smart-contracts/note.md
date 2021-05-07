@@ -20,3 +20,13 @@ function functionName(<parameter types>) {public|private|etc.} [pure|view|payabl
 - Cannot define variables.
 - Cannot define structs.
 - Cannot define enums.
+
+## Truffle - Ganache
+- Add `USER` to the owner of `/local/lib`
+    - `sudo chown -R $USER /usr/local/lib`
+    - `sudo chown -R $USER /usr/local/lib/node_modules`
+- Install [`Truffle`](https://www.trufflesuite.com/docs/truffle/overview)
+    - `npm install truffle -g`
+- Create a bare Truffle project with no smart contracts included
+    - `truffle init`
+    - [Quickstart](https://www.trufflesuite.com/docs/truffle/quickstart)
