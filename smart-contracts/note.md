@@ -30,3 +30,16 @@ function functionName(<parameter types>) {public|private|etc.} [pure|view|payabl
 - Create a bare Truffle project with no smart contracts included
     - `truffle init`
     - [Quickstart](https://www.trufflesuite.com/docs/truffle/quickstart)
+- Compile contract source file
+    - `truffle compile`
+    - Only compile contracts that have changed since the last compile
+- Execute build pipeline (if configuration present)
+    - `truffle build`
+- Run migrations to deploy contracts
+    - `truffle migrate`
+        - `--reset`: Run all migrations from the beginning, instead of running from the last completed migration.
+- Truffle [Commands](https://www.trufflesuite.com/docs/truffle/reference/truffle-commands#migrate)
+
+### Truffle Boxes
+- The boilerplates that contain helpful modules, Solidity contracts & libraries, front-end views and more.
+- Example: [React](https://www.trufflesuite.com/boxes/react) Box.
