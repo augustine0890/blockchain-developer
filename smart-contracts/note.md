@@ -43,3 +43,13 @@ function functionName(<parameter types>) {public|private|etc.} [pure|view|payabl
 ### Truffle Boxes
 - The boilerplates that contain helpful modules, Solidity contracts & libraries, front-end views and more.
 - Example: [React](https://www.trufflesuite.com/boxes/react) Box.
+
+### Project: Pet-Shop
+- `truffle unbox pet-shop`
+- Create `Adoption` contract
+    - `truffle create contract Adoption`
+- `truffle create migration DeployContract`
+- `truffle deploy`
+- Create the `test`
+    - `truffle create test Adoption`
+Reference [here](https://www.trufflesuite.com/tutorial)
