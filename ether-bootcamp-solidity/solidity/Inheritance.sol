@@ -66,3 +66,20 @@ contract F is A, B {
         return super.foo();
     }
 }
+
+// State variables cannot be overridden by re-declaring it in the child contract
+contract X {
+    string public name = "Contract X";
+
+    function getName() public view returns (string memory) {
+        return name;
+    }
+}
+
+contract Y is X {
+    // Override inherited state variables.
+    constructor() {
+        name = "Contract Y";
+    }
+    // Y.getName returns "Contract Y"
+}
