@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MIT
+// SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.7.6;
 
 // A constructor is an optional function that is executed upon contract creation
@@ -15,20 +15,24 @@ contract Contract {
 contract X {
     string public name;
 
+    event Log(string message);
+
     constructor(string memory _name) {
         name = _name;
+
+        emit Log(_name);
     }
 }
 
 contract Y {
     string public text;
-
+    
     constructor(string memory _text) {
         text = _text;
     }
 }
 
-contract C is X, Y {
+contract Z is X, Y {
     // Pass the parameters here in the constructor
     constructor(string memory _name, string memory _text) X(_name) Y(_name) {
 
