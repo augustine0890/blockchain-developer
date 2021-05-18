@@ -55,7 +55,7 @@
 
 __Bonus__: create community forum, push notification system (inform users about new collectibles or current status of their listings), real-time messenger (seller and buyers can discuss tokens)
 
-__Developement__: UX/UI Developement, Authorization and Security, User Profiles, Home Page, Search and Filters, Product Page, Reviews and Ratings, Shopping Cart, Payments, Notifications, Blockchain (Ethereum) Integration, NFT Management, Invetory Management, Buyer Panel, Author Panel, Admin Panel.
+__Developement__: UX/UI Developement, Authorization and Security, User Profiles, Home Page, Search and Filters, Product Page, Reviews and Ratings, Shopping Cart, Payments, Notifications, Blockchain (Ethereum) Integration, NFT Management, Inventory Management, Buyer Panel, Author Panel, Admin Panel.
 ### Technology Stack
 - Blockchain: Ethereum, Binance Smart Chain (BSC), Polkadot, Flow, Tezos, Cardano, Cosmos, WAX.
 - Storage Platform:
