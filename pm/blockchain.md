@@ -31,3 +31,38 @@ __Proof-of-Stake__
 - The validators don't need to use significant amounts of computational power because they're selected at random and aren't competing.
 - They don't need to mine blocks --> just need to create blocks when chosen and validate proposed blocks when they're not.
 - Ethereum 2.0: the PoS consensus mechanism will require validators to stake 32 ETH to run a validator node on the network.
+
+
+## Scalability
+- The main goal of scalability is to increase transaction speed and trasaction throughput (hig transactoins per second)
+
+__mainnet__
+- "Main network", the main public Ethereum blockchain. Real ETH, real value, and real consequences (layer 1).
+
+__testnet__
+- "Test network", a network used to simulate the behavior of the main Ethereum network.
+
+### On-chain Scaling
+- Requires changes to the Ethereum protocol (layer 1)
+- Sharding: the process of splitting a database horizontally to spread the load. Sharding will reduce network congestion and increase transactions per second by creating new chains, known as "shards".
+
+### Off-chain Scaling
+- Implemented separately from layer 1 mainet.
+- Some use-cases, like blockchain games, make no sense with current transaction times.
+- It can be unnecessarily expensive to use blockchain applications.
+- Any updates to scalability should not be at the expense of decentralization or security - layer 2 builds on top of Ethereum.
+- Some solutions (layer 2) derive their security directly from layer 1 Ethereum consensus. Other solutions involve the creation of new chains in various forms that derive their security separately from mainet (sidechains or plasma chains).
+- Sidechains:
+    - An independent EVM-compatible blockchain which runs in parallel to mainet.
+    - These are compatible with Ethereum via two-way bridges, and run under their own chosen rules of consensus, and block parameters.
+- Plasma:
+    - A chain is a separate blockchain that is anchored to the main Ethereum chain, and uses fraud proofs to arbitrate disputes.
+- Rollups
+    - The transaction execution outside the main Ethereum chain (layer 1), but post transaction data on layer 1.
+    - Rollups is to be secured by layer 1. Inheriting the security properties of layer 1, while performing execution outside of layer 1.
+    - Data or proof of transactions is on layer 1
+    - A rollup smart contract in layer 1 that can enforce correct transaction execution on layer 2 by using the transaction data on layer 1.
+__Plasma__
+- Layer 2 technology built on top of the Ethereum protocol using a combination of smart contracts and cryptopraphic verification.
+- Plasma chains have a consensus mechanism that creates blocks. The "root" of each plasma chain block is published to Ethereum.
+- Block "root" are basically little pieces of information that users can use to prove things about the contents of those blocks.
