@@ -24,3 +24,10 @@ __Proof-of-Work (PoW)__
     - nonce – for example: `0xd3ee432b4fb3d26b`
 - The miners to go through an intense race of trial and error to find the nonce for a block.
 - The miner will repeatedly put a dataset, through a mathematical function. This is to generate a mixHash that is below a target nonce, as dictated by the block difficulty.
+
+__Proof-of-Stake__
+- Block producers are selected based on how many coins they have. This selection can be made randomly or by choosing those who get the most votes, based on a combination of factors that could include the staking age, randomization, and node's wealth.
+- It requires producers to stake thier coins (crypto) to become a validator in the network.
+- The validators don't need to use significant amounts of computational power because they're selected at random and aren't competing.
+- They don't need to mine blocks --> just need to create blocks when chosen and validate proposed blocks when they're not.
+- Ethereum 2.0: the PoS consensus mechanism will require validators to stake 32 ETH to run a validator node on the network.
