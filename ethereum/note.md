@@ -1,5 +1,18 @@
 # Ethereum and Solidity: Build Web Apps with Ethereum
 
+## Blockchain Developer Roadmap
+- Basic Ethereum:
+    - Cryptographic hashes, Ether address, wallets, transactions, smart contracts, gas.
+    - Ethereum accounts: EOA vs contracts.
+    - Ethereum networks: local, public testnets and mainet.
+- Dev Tools: remix, nodejs & npm, web3.js, ganache, truffle, matamask, infura, etherscan.
+- Smart Contracts and Solidity.
+- Projects:
+    - Multisig Wallet
+    - Decentralized Exchange for ERC20 tokens
+    - Crypto-kittes game (ERC721)
+    - Reference: `Dapp 30`
+
 ## Ethereum
 - Ethereum networks are used to transfer money and store data
 - There are many different Ethereum networks

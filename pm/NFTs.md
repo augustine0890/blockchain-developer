@@ -31,8 +31,9 @@
 - Decentralized platform that allows users to create, buy, sell and store non-fungible tokens.
 - NFT marketplace platforms: Rarible, Sorare and OpenSea
 
+[Top NFT Marketplace](https://influencermarketinghub.com/nft-marketplaces/)
 ### Workflow
-- Users sign up (platform) and install a digital wallet to store NFTs.
+- Users sign-up (platform) and install a digital wallet to store NFTs.
 - Users can create their assets by uploading items to exhibit their work.
 - Users can select which payment tokens they would like to accept for their art and set a fee.
 - List the items for sale (bid for an auction or fixed price).
@@ -50,6 +51,17 @@
 - Buy and Bid:
     - Users can buy and bid for NFTs listed on the platform.
     - The bidding feature should include a bid expiration date and allow users to view details about the bid's current status.
+    - Transfer ownership/token to winner.
+    - Transfer funds to auction creator (auction is ended - least one winner)
+    - Cancel auction and deal with refunds
+- __Auction__:
+    - Seat auction:
+        - Users need to buy a "seat" at the table to bid.
+        - The bidding fee is integrated into the platform.
+        - Users have to pay a preset bidding fee to take action on each sale.
+    - Regular auction on site:
+        - Each seller has their own shop and profile. Show live auctions on their shop
+        - Supports user ratings, shopping cart, shipping options.
 - Rating: user can rate best sellers and prove their reliability (based on successful deals, amount of added valuable tokens).
 - Wallet: users to store, send and receive non-fungible tokens. Wallet should integrated with the most popular wallets like coinbase, binance, formatic or MyEtherWallet.
 
