@@ -19,7 +19,7 @@ class App extends Component {
       const networkId = await web3.eth.net.getId();
       const deployedNetwork = StorageContract.networks[networkId];
       const instance = new web3.eth.Contract(
-        SimpleStorageContract.abi,
+        StorageContract.abi,
         deployedNetwork && deployedNetwork.address,
       );
 

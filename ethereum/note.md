@@ -53,3 +53,34 @@
 ### Truffle
 - Development environment that integrates complilation, testing, and deployment of Smart Contracts.
 - Custom Node Project: Contract Creation + Local Testing + Deployment -deploying-> Network (Rinbeky)
+
+## web3.js
+- An open source JS library built by the Ethereum Foundation.
+- Included functions to communicate with an Ethereum node via the JSON - Remote Procedure Call (JSON-RPC) protocol.
+### web3-eth
+- The functions are able to interact with smart contracts, externally-owned accounts, nodes, mined blocks, and transactions.
+- _web3.eth.getBalance_ allows you to get the ETH balance of an address at a given block
+- _web3.eth.signTransaction_ allows you to sign a transaction
+- _web3.eth.sendSignedTransaction_ allows you to send a signed transaction to the Ethereum blockchain.
+### web3-utils
+- The utility functions that convert numbers, verify if a value meets a certain condition, and search datasets.
+- _web3.utils.toWei_ converts Ether to Wei
+- _web3.utils.hexToNumberString_ converts a hexadecimal value to a string _web3.utils.isAddress_ checks if a given string is a valid Ethereum address.
+
+## ethers.js
+- JS library is to interact with the Ethereum blockchain.
+- Four modules: `Ethers.provider`, `Ethers.contract`, `Ethers.utils`, `Ethers.wallets`.
+### Ethers.provider
+- _ethers.providers.InfuraProvider_ allows you to connect to the Infura hosted network of Ethereum nodes.
+- _ethers.provider.getBalance_ will get you the ETH balance of an address or a block in the blockchain.
+- _ethers.provider.resolve_ will resolve an Ethereum Name Service (ENS) name passed in to an Ethereum address.
+### Ethers.contract
+- Allow to deploy and interact with smart contracts.
+- Listen for events emitted from a smart contract, call functions provided by a smart contract, get information about smart contracts, and deploy smart contracts.
+- _ethers.ContractFactory.fromSolidity_ creates a factory for deployment of a smart contract from compiler output of the Solidity compiler or from the Truffle generated JSON file.
+- _ethers.Contract_ allows to interact with a smart contract once it has been deployed.
+### Ethers.wallets
+- Connect to an existing wallet (an Ethereum address), create a new wallet, and sign transactions.
+- _ethers.wallet.createRandom_ will create a random new account.
+- _ethers.wallet.sign_ will sign a transaction and returns the signed transaction as a hex string
+- _ethers.wallet.getBalance_ will give us the ETH balance of a wallet address.
